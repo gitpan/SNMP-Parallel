@@ -1,0 +1,31 @@
+---
+abstract: 'An effective SNMP-information-gathering module'
+author:
+  - 'Jan Henning Thorsen, all rights reserved.'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SNMP-Parallel
+no_index:
+  directory:
+    - examples
+    - inc
+    - t
+  examples: []
+requires:
+  Log::Log4perl: 0
+  Moose: 0.8
+  MooseX::AttributeHelpers: 0.2
+  POSIX: 1
+  SNMP: 5
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.00_001
